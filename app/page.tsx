@@ -10,18 +10,18 @@ import Contact from './(pages)/contact'
 
 const page = () => {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full min-h-screen'>
  
 
     <section className='flex justify-center '>
         <Header />
     </section>
 
-    <section className='pt-[130px] md:pt-[150px] h-screen'>
+    <section className='pt-[130px] md:pt-[150px] '>
         <Hero />
     </section>
 
-   <section>
+   <section className='pt-10'>
       <Contact />
     </section>
 

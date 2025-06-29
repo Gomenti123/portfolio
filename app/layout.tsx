@@ -50,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
   <StoreProvider>
-     <html className={`${groteks.className}`} lang="en">
+     <html className={`${geistMono.variable}, ${groteks.className}`} lang="en">
      
           <body className="md:px-[200px] px-[25px] min-h-screen" >
        <div>
