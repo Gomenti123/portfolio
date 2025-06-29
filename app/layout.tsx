@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Poppins, Roboto, Exo, Space_Grotesk } from "next/fon
 import "./globals.css";
 
 import StoreProvider from "./global/storeProvider";
+import { Toaster } from "sonner";
 
 
 
@@ -56,6 +57,7 @@ export default function RootLayout({
        <div>
          {children}
        </div>
+       <Toaster />
       </body>
      
     
