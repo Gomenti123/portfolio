@@ -7,7 +7,7 @@ const Header = () => {
     
   return ( 
    
-      <div style={{borderRadius: "16px", backgroundColor: "rgba(255, 255, 255, 0.41)", backdropFilter: "blur(9px)", border: "0.1px solid grey" }} className='p-2 w-[290px] h-[60px] hover:cursor-pointer flex items-center fixed top-[25px] md:top-[50px] hover:w-[310px] hover:transition-all hover:duration-300 transition-all duration-300'>
+      <div style={{borderRadius: "16px", backgroundColor: "rgba(255, 255, 255, 0.41)", backdropFilter: "blur(9px)", border: "0.1px solid grey" }} className='p-2 w-[290px] h-[60px] hover:cursor-pointer flex items-center fixed top-[25px] md:top-[50px] hover:w-[310px] hover:transition-all hover:duration-300 transition-all duration-300 z-[1000]'>
     
     <div className='flex justify-between w-full '>
         <div className='flex justify-center items-center gap-2' >

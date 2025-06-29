@@ -53,7 +53,7 @@ const Contact = () => {
 
       </form>
         </div>
-     <div>
+     <div className='h-[200vh]'> 
         
      </div>
     </div>
