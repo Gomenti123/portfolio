@@ -4,6 +4,7 @@ import "./globals.css";
 
 import StoreProvider from "./global/storeProvider";
 import { Toaster } from "sonner";
+import LenisScrollProvider from "./provider/lenisProvider";
 
 
 
@@ -55,7 +56,8 @@ export default function RootLayout({
      
           <body className="md:px-[200px] px-[25px] min-h-screen" >
        <div>
-         {children}
+        <LenisScrollProvider>{children}</LenisScrollProvider>
+         
        </div>
        <Toaster />
       </body>

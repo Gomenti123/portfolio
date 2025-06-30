@@ -7,10 +7,12 @@ import { changeTheme } from './global/slice'
 import Header from './(pages)/header'
 import Hero from './(pages)/hero'
 import Contact from './(pages)/contact'
+import Carousel from './(pages)/carousel'
+import Projects from './(pages)/projects'
 
 const page = () => {
   return (
-    <div className='w-full min-h-screen'>
+    <div className='w-full flex justify-center items-center flex-col min-h-screen'>
  
 
     <section className='flex justify-center '>
@@ -21,9 +23,16 @@ const page = () => {
         <Hero />
     </section>
 
+     <section className='flex flex-col gap-2 items-center pt-10' >
+      <Carousel />
+      <Projects />
+    </section>
+
    <section className='pt-10'>
       <Contact />
     </section>
+
+   
 
     </div>
   )

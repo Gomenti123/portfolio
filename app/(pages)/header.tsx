@@ -32,8 +32,7 @@ const Header = () => {
             <BsTwitterX />
         </div>
        </div>
-       
-       
+      
     </div>
       </div>
   

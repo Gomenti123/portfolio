@@ -53,9 +53,7 @@ const Contact = () => {
 
       </form>
         </div>
-     <div className='h-[200vh]'> 
-        
-     </div>
+    
     </div>
   )
 }
