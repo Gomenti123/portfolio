@@ -5,12 +5,15 @@ const Projects = () => {
   return (
     <div className='flex flex-col gap-5'>
         <h1 className='text-[30px] font-semibold text-center leading-[30px]'>Here's What i've been up to.</h1>
-        {projects.map((el)=>(
-            <div className='bg-neutral-500 w-full min-h-[200px] rounded-md '> 
+        <div className='w-full grid grid-cols-1 md:grid-cols-2  gap-5'>
+           {projects.map((el)=>(
+            <div className='border w-full  min-h-[300px] rounded-[25px] '> 
 
      </div>
         ))}
      
+        </div>
+       
     </div>
   )
 }

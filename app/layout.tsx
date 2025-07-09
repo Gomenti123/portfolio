@@ -54,9 +54,17 @@ export default function RootLayout({
   <StoreProvider>
      <html className={`${geistMono.variable}, ${groteks.className}`} lang="en">
      
-          <body className="md:px-[200px] px-[25px] min-h-screen" >
+          <body >
        <div>
-        <LenisScrollProvider>{children}</LenisScrollProvider>
+        <LenisScrollProvider>
+          <div className="w-[100%] md:px-[150px]">
+            <div className="border-x p-[20px]">
+              {children}
+            </div>
+
+            
+          </div>
+          </LenisScrollProvider>
          
        </div>
        <Toaster />

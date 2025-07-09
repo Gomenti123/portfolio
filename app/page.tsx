@@ -9,22 +9,24 @@ import Hero from './(pages)/hero'
 import Contact from './(pages)/contact'
 import Carousel from './(pages)/carousel'
 import Projects from './(pages)/projects'
+import {motion} from 'motion/react'
 
 const page = () => {
   return (
-    <div className='w-full flex justify-center items-center flex-col min-h-screen'>
+    <div className='w-full flex justify-center items-center flex-col'>
  
 
     <section className='flex justify-center '>
         <Header />
     </section>
 
-    <section className='pt-[130px] md:pt-[150px] '>
+    <motion.section   className='pt-[130px] md:pt-[150px] '>
+      
         <Hero />
-    </section>
+    </motion.section>
 
-     <section className='flex flex-col gap-2 items-center pt-10' >
-      <Carousel />
+     <section className='pt-10 w-[100%]' >
+    
       <Projects />
     </section>
 

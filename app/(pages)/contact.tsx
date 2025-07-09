@@ -33,8 +33,8 @@ const Contact = () => {
     <div > 
         <div className='w-full md:w-[500px] flex flex-col gap-5 '>
             <div className='flex flex-col gap-1'>
-                 <h1 className='font-semibold text-[25px] md:text-[30px]'>Get in Touch</h1>
-      <p className='text-[15px] text-neutral-600 font-light' >I'm always interested in exploring new opportunities, collaborating, or exchanging ideas with like-minded individuals. Feel free to book a call or email me if you'd like to see my portfolio deck or to discuss a potential project.</p>
+                 <h1 className='font-semibold text-[25px] md:text-[40px]'>Get in Touch</h1>
+      <p className='text-[19px] text-neutral-600 font-light' >I'm always interested in exploring new opportunities, collaborating, or exchanging ideas with like-minded individuals. Feel free to book a call or email me if you'd like to see my portfolio deck or to discuss a potential project.</p>
             </div>
             
 
