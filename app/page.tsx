@@ -10,10 +10,12 @@ import Contact from './(pages)/contact'
 import Carousel from './(pages)/carousel'
 import Projects from './(pages)/projects'
 import {motion} from 'motion/react'
+import About from './(pages)/about'
+import Footer from './(pages)/footer'
 
 const page = () => {
   return (
-    <div className='w-full flex justify-center items-center flex-col'>
+    <div className='w-full flex md:justify-center md:items-center flex-col'>
  
 
     <section className='flex justify-center '>
@@ -25,6 +27,10 @@ const page = () => {
         <Hero />
     </motion.section>
 
+    <motion.section className='pt-[50px]'>
+      <About />
+    </motion.section>
+
      <section className='pt-10 w-[100%]' >
     
       <Projects />
@@ -32,6 +38,10 @@ const page = () => {
 
    <section className='pt-10'>
       <Contact />
+    </section>
+
+    <section className='pt-10'>
+      <Footer />
     </section>
 
    

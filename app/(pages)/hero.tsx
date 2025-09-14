@@ -1,9 +1,11 @@
 import React from 'react'
 import {motion} from 'motion/react'
+import {Element } from 'react-scroll'
 
 const Hero = () => {
   return (
-    <div className='w-[100%] md:w-[500px] flex flex-col gap-5'>
+    <Element name='hero'>
+      <div className='w-[100%] md:w-[500px] flex flex-col gap-5'>
         <motion.div initial={{opacity:0, y: 50}}  whileInView={{opacity: 1, y: 0}} transition={{duration: 0.5, repeat: 0}} className='rounded-full w-[100px] h-[100px] bg-neutral-400'></motion.div>
         <motion.h1 initial={{opacity:0, y: 50}}  whileInView={{opacity: 1, y: 0}} transition={{duration: 1, repeat: 0}} className='md:text-[45px] text-[30px] font-semibold leading-[50px]'>Hello, I'm <br /> James Gomenti </motion.h1>
       <motion.p initial={{opacity:0, y: 50}}  whileInView={{opacity: 1, y: 0}} transition={{duration: 1.5, repeat: 0}} className={`text-[18px] leading-[31px] font-light text-neutral-500`}>I am a <strong className={``}>frontend developer</strong> I have a strong background in creating visually appealing and <strong className={``}>ser-friendly web experiences.</strong> u I am motivated to find a role where I can challenge myself <strong className={``}>and provide value to website users.</strong>  I am excited to bring my knowledge and experience to a team and contribute to a company's success.</motion.p>
@@ -14,6 +16,8 @@ const Hero = () => {
       </motion.div>
       
       </div>
+    </Element>
+    
   )
 }
 

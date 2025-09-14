@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { toast } from 'sonner';
+import { Element } from 'react-scroll';
 
 const Contact = () => {
     const form:any = useRef("")
@@ -30,7 +31,7 @@ const Contact = () => {
       );
   };
   return (
-    <div > 
+    <Element name='contact' > 
         <div className='w-full md:w-[500px] flex flex-col gap-5 '>
             <div className='flex flex-col gap-1'>
                  <h1 className='font-semibold text-[25px] md:text-[40px]'>Get in Touch</h1>
@@ -54,7 +55,7 @@ const Contact = () => {
       </form>
         </div>
     
-    </div>
+    </Element>
   )
 }
 
