@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='flex items-center gap-1 w-full justify-center pt-10 text-neutral-600'>
             <p>Copyright</p>
             <FaRegCopyright /> 
-            <p>James Gomenti</p>
+            <p>2025 James Gomenti</p>
         </div>
       
       
